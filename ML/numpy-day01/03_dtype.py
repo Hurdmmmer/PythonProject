@@ -1,5 +1,5 @@
 '''
-    自定义复合类型
+    自定义复合类型, 只有使用元组才能转换数据类型
 '''
 import numpy as np
 data = [
@@ -24,6 +24,9 @@ ary = np.array(data, dtype={
     'names': ['name', 'score', 'age'],
     'formats': ['2str', '3int32', 'int32'],
 })
+
+print(ary)
+
 print(ary['name'])
 print(ary['age'])
 print(ary['score'])
