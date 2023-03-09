@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 x = np.array([1, 2, 3, 4, 5])
 y = np.array([3, 6, 9, 12, 15])
-
+print(x)
 # 画直线图
 plt.plot(x, y)
 # plt.show()
